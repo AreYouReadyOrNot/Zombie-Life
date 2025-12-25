@@ -1,6 +1,9 @@
 # 🧟 Zombie Life
 
-Un jeu Python avec Pygame où des **Schwarze** (Arnold Schwarzenegger) doivent éliminer tous les **zombies** !
+Un jeu Python avec Pygame où des **Schwarze** (Arnold Schwarzenegger) et Links doivent éliminer tous les **zombies** !
+
+<img width="1198" height="1195" alt="image" src="https://github.com/user-attachments/assets/77ae46d5-9e93-4286-abfc-fb87192fee60" />
+
 
 ## 🎮 Gameplay
 
