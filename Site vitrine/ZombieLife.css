@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+figcaption {
+    position: absolute;
+    top: 10px; /* Ajustez cette valeur selon vos besoins pour déplacer le texte vers le haut */
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+#image-container img {
+    width: 150px; /* Ajustez la largeur selon vos besoins */
+    margin: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}

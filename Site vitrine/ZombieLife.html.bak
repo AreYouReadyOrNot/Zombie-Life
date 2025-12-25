@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Vie Zombie</title>
+    <link rel="stylesheet" href="ZombieLife.css">
+</head>
+
+<body>
+    <header>
+        <h1>Zombie Life</h1>
+    </header>
+
+    <main>
+        <h2>Règles du Jeu :</h2>
+        <p>
+            Bienvenue dans notre Jeu de la Vie version Zombie "ZombieLife" !<br> C'est un jeu de la vie typique où les "zombies" mangent les "link"(repésentant les humains) lorsqu'ils se touchent, au pixel près.
+            Un "Link" apparait toutes les trois secondes environ. Et seul "Schwarze" peut tuer les zombies, il est aussi immunisé et ne peut donc pas mourir, par conséquent le jeu se fini avec la victoire de "Schwarze" et des villageois.    
+		</p>
+
+        <h2>Images :</h2>
+        <div id="image-container">
+            <figure>
+                <img src="zombie.png" alt="Zombie">
+                <figcaption>Zombie</figcaption>
+            </figure>
+
+            <figure>
+                <img src="link.png" alt="Link" class="small-image">
+                <figcaption>Link</figcaption>
+            </figure>
+
+            <figure>
+                <img src="stallone.png" alt="Schwarze">
+                <figcaption>Schwarze</figcaption>
+            </figure>
+        </div>
+		<h2>Problèmes rencontrés :</h2>
+		<p>
+			Les problèmes que nous avons renconté lors de notre projet sont :<br>- De gérer le systeme de grille avec les sprites. <br>- Gérer le systeme de mort et de reproduction avec une dizaine de versions test. <br>- Ainsi que le systeme de règlementation.<br>
+			- Les différents ajouts tels que l'augmentation de la taille. <br>- De la vitesse qui augmente au fur et a mesure. <br>- Ainsi que les quatres schwarze qui apparaissent au bout d'une minute.	<br>		
+		</p>
+		<h2>Des idées en plus :</h2>
+		<p>
+			Le fait que les Link ne meurent pas mais se transforment en zombies.<br>
+			On aurait voulu complexifier les règles de la mort et de la reproduction des links comme des zombies.
+		</p>
+		
+    </main>
+</body>
+
+</html>
